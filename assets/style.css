@@ -136,7 +136,6 @@ ul li:not(:last-child):hover::after {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
 }
 #home .row .image {
   flex-basis: 60%;
@@ -625,6 +624,9 @@ footer a:hover {
   /***** Home *****/
   #home .row {
     flex-direction: column-reverse;
+  }
+  #home .row .content {
+    align-items: center;
   }
   #home .row .content .button {
     width: 70%;
